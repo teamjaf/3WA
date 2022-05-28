@@ -29,6 +29,7 @@ function codeverify() {
 
     coderesult.confirm(code).then(function(result) {
         alert("Successfully registered");
+        window.location.href = '/test/dist/'; 
         var user = result.user;
         console.log(user);
     }).catch(function(error) {

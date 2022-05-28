@@ -3,13 +3,16 @@
     <title>Phone Number Authentication with Firebase Web</title>
 </head>
 <body>
-<h1>Enter number to create account</h1>
-<form>
+<h1>FinSec Demo</h1>
+
+<h2>Step-01: Mobile OTP</h2>
+
+<form>    
     <input type="text" id="number" placeholder="+880********">
     <div id="recaptcha-container"></div>
     <button type="button" onclick="phoneAuth();">SendCode</button>
 </form><br>
-<h1>Enter Verification code</h1>
+<h2>Enter Verification code for next step</h2>
 <form>
     <input type="text" id="verificationCode" placeholder="Enter verification code">
     <button type="button" onclick="codeverify();">Verify code</button>
